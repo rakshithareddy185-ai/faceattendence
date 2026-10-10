@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+
+# Build files
+build/
+dist/
+
+# IDE files
+.vscode/
+
+# Local databases and private attendance data
+*.sqlite
+*.sqlite3
+attendance_records/
+face_images/
